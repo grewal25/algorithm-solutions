@@ -38,3 +38,9 @@ def findDisappearedNumbers(nums):
 #                 arr.append(j)
 				
 #         return arr
+
+# def findDisappearedNumbers(self, nums: List[int]) -> List[int]:
+# 		# list of all possible numbers
+#         all_nums = [x for x in range(1,len(nums)+1)]
+# 		# convert to set to eliminate duplicates from nums and use set's difference operation
+#         return set(all_nums)-set(nums)
