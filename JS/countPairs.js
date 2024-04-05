@@ -6,7 +6,7 @@ var countPairs = function (nums, target) {
 
   while (left < right) {
     let sum = nums[left] + nums[right];
-    console.log(sum, target);
+    // console.log(sum, target);
     if (sum < target) {
       count += right - left;
       left++;
