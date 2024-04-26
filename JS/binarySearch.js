@@ -8,7 +8,6 @@ function search(nums, target) {
     if (nums[mid] === target) {
       return mid;
     } else if (nums[mid] < target) {
-      //   console.log("yess");
       left = mid + 1;
     } else {
       right = mid - 1;
