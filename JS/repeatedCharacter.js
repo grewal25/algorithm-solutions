@@ -11,3 +11,4 @@ function repeatedCharacter(s) {
 }
 
 console.log(repeatedCharacter("abccbaacz"));
+console.log(module.exports);
